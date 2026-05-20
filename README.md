@@ -4,8 +4,7 @@ SmartLeads is a high-performance MERN stack application built with TypeScript, T
 
 ## 🚀 Live Deployments
 
-- **Frontend App:** [Your Frontend URL Here]
-- **Backend API Engine:** [Your Backend URL Here]
+- **Application Link:** [https://smartleads-nc0p.onrender.com]
 
 ---
 
