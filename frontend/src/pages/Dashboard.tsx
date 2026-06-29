@@ -70,7 +70,8 @@ export const Dashboard: React.FC = () => {
   }
   
   // Clean parameter streaming endpoint
-  window.open(`http://localhost:5000/api/v1/leads/export?token=${encodeURIComponent(token)}`, '_blank');
+  const API_URL = import.meta.env.VITE_API_URL || 'https://your-app.onrender.com';
+  window.open(`${API_URL}/api/v1/leads/export?token=${encodeURIComponent(token)}`, '_blank');
 };
 
   return (
