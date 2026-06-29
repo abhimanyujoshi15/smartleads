@@ -71,7 +71,7 @@ export const Dashboard: React.FC = () => {
   
   // Clean parameter streaming endpoint
   const API_URL = import.meta.env.VITE_API_URL;
-  window.open(`${API_URL}/api/v1/leads/export?token=${encodeURIComponent(token)}`, '_blank');
+  window.open(`${API_URL}/leads/export?token=${encodeURIComponent(token)}`, '_blank');
 };
 
   return (
